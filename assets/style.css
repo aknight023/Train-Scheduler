@@ -1,0 +1,28 @@
+body {
+	background-image: url("images/backgrounds.jpg");
+ 	background-repeat: no-repeat;
+ 	background-size: cover; 	
+    background-attachment: fixed;
+    background-position: center;
+
+ }
+
+
+
+.jumbotron {
+	background-color: rgba(0, 0, 0, 0.2);	
+	text-align: center;
+	color: white;
+
+}
+
+h1.display-4 {
+
+font-weight:bold;
+}
+
+.row {
+	margin-bottom: 20px;
+	margin-top: 10px;
+
+}
