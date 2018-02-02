@@ -107,10 +107,14 @@ $(document).ready( function () {
 	  //   refreshTable();
 	  // }
 
+
+
 	}
 
 	// Update the Current Time every second
 	var timer = setInterval(currentTime, 1000);
+
+	minuteAwaytime = setInterval()
 
 	$(document).on('click', '.removebut', removeState);
 
