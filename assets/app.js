@@ -101,20 +101,18 @@ $(document).ready( function () {
 	// Trying to get the data to refresh every minute but had troble with the page reload when a user was entering data. Clearly this isnt the right
 	// way to do it. 
 
-	  // if(seconds == "00"){
-	  //   // Refresh the Page every minute
-	  //   location.reload();
-	  //   refreshTable();
-	  // }
+	  if(seconds == "00"){
+	    // Refresh the Page every minute
+	    location.reload();
+	    refreshTable();
+	  }
 
 
 
 	}
 
 	// Update the Current Time every second
-	var timer = setInterval(currentTime, 1000);
-
-	minuteAwaytime = setInterval()
+	var timer = setInterval(currentTime, 1000);	
 
 	$(document).on('click', '.removebut', removeState);
 
